@@ -78,9 +78,11 @@ body {
 }
 .container{
     background-color: rgb(231, 248, 253);
+    height: 100vh;
 }
 .reason{
-    border: 3px solid rgb(187, 243, 234);
+    border: 3px solid rgb(193, 255, 245);
+    background-color:rgb(231, 248, 253);
     padding-left: 5px;
     width:50%;
 }
@@ -115,7 +117,7 @@ body {
         letter-spacing: 2px;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     .tutorial-elements button{
         font-size: 15px;
     }
